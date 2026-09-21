@@ -1,0 +1,17 @@
+{
+  "name": "teltonika-playground",
+  "image": "mcr.microsoft.com/devcontainers/go:1-1.27-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "github.copilot",
+        "github.copilot-chat"
+      ]
+    }
+  },
+  "postCreateCommand": "go mod tidy",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  }
+}

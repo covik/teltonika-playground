@@ -1,6 +1,6 @@
 {
   "name": "teltonika-playground",
-  "image": "mcr.microsoft.com/devcontainers/go:1-1.24-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/go:1-1.27-bookworm",
   "customizations": {
     "vscode": {
       "extensions": [
